@@ -1,0 +1,120 @@
+    .inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(39, 39, 39);
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider_container {
+        display: flex;
+        overflow: visible;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        z-index: 5;
+    }
+
+    .divImagem{
+        position: relative;
+        z-index: 2;
+    }
+    .slider_content {
+        width: 512px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slides {
+        width: 100%;
+        border-radius: 0.5rem;
+        min-height: 288px;
+    }
+
+    .slider_content:hover {
+        transform: scale(1.2);
+        transform-origin: center center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        padding: 50px 50px;
+        transition: all 0.3s ;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .slider-footer {
+        background-color: rgb(15, 15, 15);
+        padding: 2rem 10px;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    .slider_content:hover > .slider-footer {
+        opacity: 1;
+    }
+
+    .footer_buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer_btn {
+        border-radius: 5rem;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        border-color: white;
+    }
+
+    .footer_info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 60%;
+    }
+
+    .gender {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    
+
+    .button {
+        position: absolute;
+        z-index: 2;
+        color: white;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        border: none; 
+        height: 288px;
+    }
+    .btn1{
+        left: 0;
+        top: 60px;
+    }
+    .btn2{
+        right: 0;
+        top: 60px;
+    }
+  

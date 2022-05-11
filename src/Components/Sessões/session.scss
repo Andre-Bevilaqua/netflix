@@ -1,0 +1,48 @@
+.session {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    justify-content: space-evenly;
+    border-top: rgb(58, 58, 58) solid 10px;
+}
+
+
+.texto1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.texto2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+.quest{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 25px;
+    flex: 1;
+}
+.info{
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    opacity: 0;
+    transform-origin: top center;
+    overflow: hidden;
+}
+.drops{
+    padding: 0px 300px;
+}
+.links{
+    margin-top: 20px;
+}
